@@ -1,5 +1,6 @@
-<p style="text-align:center"><h1>📓 Codebook</h1></p>
-<hr />
+<p style="text-align:center">
+  <h1>📓 Codebook</h1>
+</p>
 
 A collection of notes and snippets about code.
 
