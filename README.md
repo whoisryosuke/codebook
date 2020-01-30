@@ -1,4 +1,5 @@
-# 📓 Codebook
+<p style="text-align:center"><h1>📓 Codebook</h1></p>
+<hr />
 
 A collection of notes and snippets about code.
 
