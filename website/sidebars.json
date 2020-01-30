@@ -6,14 +6,44 @@
       "label": "React",
       "ids": [
         "js/react/react-basics",
-        "js/react/react-snippets"
+        "js/react/react-snippets",
+        "js/react/styled-components"
+      ]
+    }, {
+      "type": "subcategory",
+      "label": "NodeJS",
+      "ids": [
+        "js/node/node-basics",
+        "js/node/node-async"
       ]
     }],
     "PHP": [{
       "type": "subcategory",
       "label": "PHP",
       "ids": [
-        "php/php-basics"
+        "php/php-basics",
+        "php/php-snippets"
+      ]
+    }],
+    "CSS": ["css-snippets"],
+    "Dev Ops": [{
+      "type": "subcategory",
+      "label": "Project Management",
+      "ids": [
+        "devops/project/linting"
+      ]
+    }, {
+      "type": "subcategory",
+      "label": "Git",
+      "ids": [
+        "devops/git/git-snippets"
+      ]
+    }],
+    "Design Systems": [{
+      "type": "subcategory",
+      "label": "Theming",
+      "ids": [
+        "design-systems/theming/theming-examples"
       ]
     }]
   },

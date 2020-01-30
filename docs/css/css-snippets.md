@@ -1,0 +1,24 @@
+---
+id: css-snippets
+title: CSS Snippets
+sidebar_label: Snippets
+---
+
+```css
+/**
+* VISUALLY HIDDEN
+* Hides element visually and removes it from the flow,
+* but importantly, allows assitive technology to access it
+*/
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+```
