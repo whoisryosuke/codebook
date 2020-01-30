@@ -1,4 +1,4 @@
-# Codebook
+# 📓 Codebook
 
 A collection of notes and snippets about code.
 
