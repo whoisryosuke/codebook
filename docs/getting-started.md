@@ -5,7 +5,11 @@ title: Getting Started
 
 ## Basics
 
-- [ReactJS](js/react/react-basics.md)
+<div class="button-group">
+  <a href="js/react/react-basics" class="button">ReactJS</a>
+  <a href="js/react/react-basics" class="button">ReactJS</a>
+  <a href="js/react/react-basics" class="button">ReactJS</a>
+</div>
 
 ## Snippets
 
