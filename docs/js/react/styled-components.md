@@ -1,3 +1,8 @@
+---
+id: styled-components
+title: Styled Components
+---
+
 ## Snippets
 
 ### Get Theme Value
