@@ -18,9 +18,30 @@ h4 {
   font-family: $fontHeader;
 }
 
+.fixedHeaderContainer {
+  background: #FFF;
+  border-bottom: 1px solid black;
+  color: #000;
+}
+
+.fixedHeaderContainer a {
+  color: #000;
+}
+
+.navGroupCategoryTitle,
+.navGroupSubcategoryTitle {
+  font-family: $fontBody;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {}
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  .navigationSlider .slidingNav ul li a {
+    color: #000;
+  }
+}
 
 @media only screen and (max-width: 1023px) {}
 

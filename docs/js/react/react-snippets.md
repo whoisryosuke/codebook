@@ -1,6 +1,7 @@
 ---
-id: react-tips
-title: React Tips
+id: react-snippets
+title: React Snippets
+sidebar_label: Snippets
 ---
 
 React tips here
