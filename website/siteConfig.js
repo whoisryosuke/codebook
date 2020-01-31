@@ -59,7 +59,14 @@ const siteConfig = {
   /* Custom fonts for website */
   fonts: {
     fontHeader: ["Poppins", "Sans-Serif"],
-    fontBody: ["Roboto", "-apple-system", "system-ui"]
+    fontBody: ["Roboto", "-apple-system", "system-ui"],
+    fontCode: [
+      "Fira Code",
+      "Dank Mono",
+      "Source Code Pro",
+      "Monaco",
+      "Consolas"
+    ]
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -67,7 +74,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "default"
+    theme: "github"
   },
 
   // Add custom scripts here that would be placed in <script> tags.

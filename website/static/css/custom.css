@@ -1,9 +1,4 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:500,700|Poppins:500|Roboto:400,400i,700,700i&display=swap');
 
 /* Typography */
 
@@ -18,6 +13,38 @@ h4 {
   font-family: $fontHeader;
 }
 
+pre,
+code {
+  font-family: $fontCode;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+
+/* Highlight.js Overrides for Github Theme */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: rgb(0, 36, 87);
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id,
+.hljs-string,
+.hljs-doctag {
+  color: #005CDD;
+}
+
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #6D59F0;
+}
 
 /* Header */
 
