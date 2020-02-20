@@ -1,5 +1,5 @@
 ---
-id: react-basics
+id: basics
 title: React Basics
 sidebar_label: Basics
 ---

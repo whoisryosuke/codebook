@@ -5,24 +5,40 @@
       "type": "subcategory",
       "label": "React",
       "ids": [
-        "js/react/react-basics",
-        "js/react/react-snippets",
-        "js/react/styled-components"
+        "js/react/basics",
+        "js/react/snippets",
+        "js/react/examples/react-examples",
+        "js/react/styled-components/redirect"
       ]
     }, {
       "type": "subcategory",
       "label": "NodeJS",
       "ids": [
-        "js/node/node-basics",
-        "js/node/node-async"
+        "js/node/basics",
+        "js/node/async",
+        "js/node/package-json",
+        "js/node/express/redirect"
+      ]
+    }, {
+      "type": "subcategory",
+      "label": "Vanilla JS",
+      "ids": [
+        "js/vanilla/validation"
+      ]
+    }, {
+      "type": "subcategory",
+      "label": "Web Components",
+      "ids": [
+        "js/web-components/storybook",
+        "js/web-components/react-integration"
       ]
     }],
     "PHP": [{
       "type": "subcategory",
       "label": "PHP",
       "ids": [
-        "php/php-basics",
-        "php/php-snippets"
+        "php/basics",
+        "php/snippets"
       ]
     }],
     "CSS": ["css-snippets"],
@@ -36,7 +52,7 @@
       "type": "subcategory",
       "label": "Git",
       "ids": [
-        "devops/git/git-snippets"
+        "devops/git/snippets"
       ]
     }],
     "Design Systems": [{
@@ -47,7 +63,21 @@
       ]
     }]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "react-examples": {
+    "React Examples": [
+      "js/react/examples/hide-on-scroll"
+    ]
+  },
+  "styled-components": {
+    "Styled Components": [
+      "js/react/styled-components/basics",
+      "js/react/styled-components/snippets",
+      "js/react/styled-components/typescript"
+    ]
+  },
+  "express": {
+    "ExpressJS": [
+      "js/node/express/error-handling"
+    ]
   }
 }

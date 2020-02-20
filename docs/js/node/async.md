@@ -1,5 +1,5 @@
 ---
-id: node-async
+id: async
 title: Node Async
 sidebar_label: Async
 ---

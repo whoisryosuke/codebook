@@ -1,5 +1,5 @@
 ---
-id: php-basics
+id: basics
 title: PHP Basics
 sidebar_label: Basics
 ---

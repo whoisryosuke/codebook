@@ -1,5 +1,5 @@
 ---
-id: php-snippets
+id: snippets
 title: PHP Snippets
 sidebar_label: Snippets
 ---

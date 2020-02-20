@@ -1,5 +1,5 @@
 ---
-id: git-snippets
+id: snippets
 title: Git Snippets
 sidebar_label: Snippets
 ---

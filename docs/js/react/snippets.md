@@ -1,5 +1,5 @@
 ---
-id: react-snippets
+id: snippets
 title: React Snippets
 sidebar_label: Snippets
 ---

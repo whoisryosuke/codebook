@@ -1,5 +1,5 @@
 ---
-id: node-basics
+id: basics
 title: Node Basics
 sidebar_label: Basics
 ---
