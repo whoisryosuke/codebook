@@ -4,7 +4,35 @@ title: Snippets
 sidebar_label: Snippets
 ---
 
-## Snippets
+# Configuration
+
+## Webpack
+
+How to add relative aliasing (@component/Button vs '../../component/Button`)
+
+`.storybook/webpack.config.js`:
+
+```js
+const path = require("path");
+
+module.exports = ({ config, mode }) => {
+  // Adds absolute paths to imports
+  config.resolve.alias = {
+    ...config.resolve.alias,
+    "@components": path.resolve(__dirname, "../src/components"),
+    "@assets": path.resolve(__dirname, "../src/assets"),
+    "@helpers": path.resolve(__dirname, "../src/helpers"),
+    "@layouts": path.resolve(__dirname, "../src/layouts"),
+    "@templates": path.resolve(__dirname, "../src/templates")
+  };
+
+  return config;
+};
+```
+
+# Snippets
+
+## Theming
 
 ### Get Theme Value
 

@@ -1,6 +1,6 @@
 ---
 id: package-json
-title: Node package.json
+title: package.json from NodeJS
 sidebar_label: package.json
 ---
 

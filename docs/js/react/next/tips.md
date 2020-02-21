@@ -1,5 +1,5 @@
 ---
-id: next-tips
+id: tips
 title: Tips - NextJS
 sidebar_label: Tips
 ---

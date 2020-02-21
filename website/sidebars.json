@@ -6,9 +6,14 @@
       "label": "React",
       "ids": [
         "js/react/basics",
+        "js/react/context",
+        "js/react/forms",
+        "js/react/hooks",
         "js/react/snippets",
         "js/react/examples/react-examples",
-        "js/react/styled-components/redirect"
+        "js/react/styled-components/redirect",
+        "js/react/next/redirect",
+        "js/react/gatsby/redirect"
       ]
     }, {
       "type": "subcategory",
@@ -21,8 +26,15 @@
       ]
     }, {
       "type": "subcategory",
+      "label": "Typescript",
+      "ids": [
+        "js/typescript/config"
+      ]
+    }, {
+      "type": "subcategory",
       "label": "Vanilla JS",
       "ids": [
+        "js/vanilla/currency",
         "js/vanilla/validation"
       ]
     }, {
@@ -32,15 +44,26 @@
         "js/web-components/storybook",
         "js/web-components/react-integration"
       ]
-    }],
-    "PHP": [{
+    }, {
       "type": "subcategory",
-      "label": "PHP",
+      "label": "jQuery",
       "ids": [
-        "php/basics",
-        "php/snippets"
+        "js/jquery/best-practices"
       ]
     }],
+    "PHP": [
+      "php/basics",
+      "php/snippets",
+      {
+        "type": "subcategory",
+        "label": "Laravel",
+        "ids": [
+          "php/laravel/blade",
+          "php/laravel/devops",
+          "php/laravel/tips"
+        ]
+      }
+    ],
     "CSS": ["css-snippets"],
     "Dev Ops": [{
       "type": "subcategory",
@@ -54,7 +77,14 @@
       "ids": [
         "devops/git/snippets"
       ]
+    }, {
+      "type": "subcategory",
+      "label": "Ubuntu",
+      "ids": [
+        "devops/ubuntu/permissions"
+      ]
     }],
+    "Other": ["other/regex", "other/shopify", "other/netlify"],
     "Design Systems": [{
       "type": "subcategory",
       "label": "Theming",
@@ -73,6 +103,16 @@
       "js/react/styled-components/basics",
       "js/react/styled-components/snippets",
       "js/react/styled-components/typescript"
+    ]
+  },
+  "gatsby": {
+    "GatsbyJS": [
+      "js/react/gatsby/config"
+    ]
+  },
+  "next": {
+    "NextJS": [
+      "js/react/next/tips"
     ]
   },
   "express": {
