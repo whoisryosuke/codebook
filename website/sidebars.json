@@ -125,32 +125,5 @@
         "design-systems/theming/theming-examples"
       ]
     }]
-  },
-  "react-examples": {
-    "React Examples": [
-      "js/react/examples/hide-on-scroll"
-    ]
-  },
-  "styled-components": {
-    "Styled Components": [
-      "js/react/styled-components/basics",
-      "js/react/styled-components/snippets",
-      "js/react/styled-components/typescript"
-    ]
-  },
-  "gatsby": {
-    "GatsbyJS": [
-      "js/react/gatsby/config"
-    ]
-  },
-  "next": {
-    "NextJS": [
-      "js/react/next/tips"
-    ]
-  },
-  "express": {
-    "ExpressJS": [
-      "js/node/express/error-handling"
-    ]
   }
 }
