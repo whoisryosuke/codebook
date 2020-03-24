@@ -81,7 +81,7 @@ module.exports = {
 
   title: "codebook", // Title for your website.
   tagline: "Code snippets and notes by Ryosuke",
-  url: "https://your-docusaurus-test-site.com", // Your website URL
+  url: "https://code.whoisryosuke.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   favicon: "img/favicon.ico",
 
