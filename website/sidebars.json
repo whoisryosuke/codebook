@@ -10,10 +10,37 @@
         "js/react/forms",
         "js/react/hooks",
         "js/react/snippets",
-        "js/react/examples/react-examples",
-        "js/react/styled-components/redirect",
-        "js/react/next/redirect",
-        "js/react/gatsby/redirect"
+        {
+          "type": "category",
+          "label": "Examples",
+          "items": [
+            "js/react/examples/hide-on-scroll",
+            "js/react/examples/mobile-sidebar"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Gatsby",
+          "items": [
+            "js/react/gatsby/config"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "NextJS",
+          "items": [
+            "js/react/next/tips"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Styled Components",
+          "items": [
+            "js/react/styled-components/basics",
+            "js/react/styled-components/snippets",
+            "js/react/styled-components/typescript"
+          ]
+        }
       ]
     }, {
       "type": "category",
@@ -22,7 +49,13 @@
         "js/node/basics",
         "js/node/async",
         "js/node/package-json",
-        "js/node/express/redirect"
+        {
+          "type": "category",
+          "label": "ExpressJS",
+          "items": [
+            "js/node/express/error-handling"
+          ]
+        }
       ]
     }, {
       "type": "category",
