@@ -50,7 +50,7 @@ module.exports = {
     footer: {
       logo: {
         alt: 'Ryosuke logo',
-        src: 'https://docusaurus.io/img/oss_logo.png',
+        src: 'img/logo-ryosuke.svg',
         href: 'https://whoisryosuke.com/',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Ryosuke`,
