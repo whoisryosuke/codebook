@@ -11,4 +11,25 @@
     --ifm-color-primary-light: #0065f3;
     --ifm-color-primary-lighter: #006afe;
     --ifm-color-primary-lightest: #207dff;
+
+    --ifm-color-secondary: #6d59f0;
+    --ifm-color-secondary-dark: #523bed;
+    --ifm-color-secondary-darker: #452cec;
+    --ifm-color-secondary-darkest: #2d13d3;
+    --ifm-color-secondary-light: #8877f3;
+    --ifm-color-secondary-lighter: #9586f4;
+    --ifm-color-secondary-lightest: #bdb4f8;
+
+    --ifm-font-family-base: "Roboto", "-apple-system", "system-ui";
+    --ifm-font-family-heading: "Poppins", "sans-serif";
+    --ifm-font-family-code: "Fira Code", "Dank Mono", "Source Code Pro", "Monaco", "Consolas";
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:var(--ifm-font-family-heading);
+}
+
+code {
+    font-family:var(--ifm-font-family-code);
 }

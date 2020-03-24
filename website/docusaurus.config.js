@@ -55,10 +55,13 @@ module.exports = {
       },
       copyright: `Copyright © ${new Date().getFullYear()} Ryosuke`,
     },
-    image: 'img/docusaurus.png',
+    image: 'img/favicon.png',
     // Equivalent to `docsSideNavCollapsible`
     sidebarCollapsible: false,
-    // ...
+    // Code editor theme
+    prism: {
+      theme: require('prism-react-renderer/themes/nightOwl'),
+    },
   },
 
   title: "codebook", // Title for your website.
@@ -91,24 +94,6 @@ module.exports = {
   // /* path to images for header/footer */
   // headerIcon: "img/favicon.png",
   // footerIcon: "img/favicon.ico",
-
-  // /* Colors for website */
-  // colors: {
-  //   secondaryColor: "#154273"
-  // },
-
-  // /* Custom fonts for website */
-  // fonts: {
-  //   fontHeader: ["Poppins", "Sans-Serif"],
-  //   fontBody: ["Roboto", "-apple-system", "system-ui"],
-  //   fontCode: [
-  //     "Fira Code",
-  //     "Dank Mono",
-  //     "Source Code Pro",
-  //     "Monaco",
-  //     "Consolas"
-  //   ]
-  // },
 
   // // Add custom scripts here that would be placed in <script> tags.
   // scripts: ["https://buttons.github.io/buttons.js"],
