@@ -1,5 +1,5 @@
 ---
-id: blade
+id: tips
 title: Laravel Tips
 sidebar_label: Tips
 ---

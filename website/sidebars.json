@@ -2,9 +2,9 @@
   "docs": {
     "Getting Started": ["getting-started"],
     "JavaScript": [{
-      "type": "subcategory",
+      "type": "category",
       "label": "React",
-      "ids": [
+      "items": [
         "js/react/basics",
         "js/react/context",
         "js/react/forms",
@@ -16,38 +16,38 @@
         "js/react/gatsby/redirect"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "NodeJS",
-      "ids": [
+      "items": [
         "js/node/basics",
         "js/node/async",
         "js/node/package-json",
         "js/node/express/redirect"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "Typescript",
-      "ids": [
+      "items": [
         "js/typescript/config"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "Vanilla JS",
-      "ids": [
+      "items": [
         "js/vanilla/currency",
         "js/vanilla/validation"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "Web Components",
-      "ids": [
+      "items": [
         "js/web-components/storybook",
         "js/web-components/react-integration"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "jQuery",
-      "ids": [
+      "items": [
         "js/jquery/best-practices"
       ]
     }],
@@ -55,40 +55,40 @@
       "php/basics",
       "php/snippets",
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Laravel",
-        "ids": [
+        "items": [
           "php/laravel/blade",
           "php/laravel/devops",
           "php/laravel/tips"
         ]
       }
     ],
-    "CSS": ["css-snippets"],
+    "CSS": ["css/css-snippets"],
     "Dev Ops": [{
-      "type": "subcategory",
+      "type": "category",
       "label": "Project Management",
-      "ids": [
+      "items": [
         "devops/project/linting"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "Git",
-      "ids": [
+      "items": [
         "devops/git/snippets"
       ]
     }, {
-      "type": "subcategory",
+      "type": "category",
       "label": "Ubuntu",
-      "ids": [
+      "items": [
         "devops/ubuntu/permissions"
       ]
     }],
     "Other": ["other/regex", "other/shopify", "other/netlify"],
     "Design Systems": [{
-      "type": "subcategory",
+      "type": "category",
       "label": "Theming",
-      "ids": [
+      "items": [
         "design-systems/theming/theming-examples"
       ]
     }]

@@ -1,5 +1,5 @@
 ---
-id: web-components-storybook
+id: storybook
 title: Storybook for Web Components
 sidebar_label: Storybook
 ---
