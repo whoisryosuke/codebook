@@ -38,11 +38,26 @@ module.exports = {
         {
           to: "docs/getting-started",
           label: "Docs",
+          position:'left'
+        },
+        {
+          to: "docs/design-systems/theming/theming-examples",
+          label: "Design Systems",
           position:'right'
         },
         {
-          to: "help",
-          label: "Help",
+          to: "docs/js/vanilla/validation",
+          label: "JavaScript",
+          position:'right'
+        },
+        {
+          to: "docs/js/react/basics",
+          label: "React",
+          position:'right'
+        },
+        {
+          to: "docs/php/basics",
+          label: "PHP",
           position:'right'
         }
       ],
