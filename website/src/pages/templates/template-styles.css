@@ -1,0 +1,12 @@
+main > .container {
+    padding-bottom: 3rem;
+}
+
+.pagination-nav .pagination-nav__item {
+    flex-basis: 33%;
+    max-width: 33%;
+}
+
+.card-container {
+    width:100%;
+}
