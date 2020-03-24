@@ -83,32 +83,7 @@ module.exports = {
   tagline: "Code snippets and notes by Ryosuke",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
   favicon: "img/favicon.ico",
-
-  // // Used for publishing and more
-  // projectName: "codebook",
-  // organizationName: "facebook",
-  // // For top-level user or org sites, the organization is still the same.
-  // // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  // //   organizationName: 'JoelMarcey'
-
-  // // For no header links in the top nav bar -> headerLinks: [],
-  // headerLinks: [{
-  //     doc: "getting-started",
-  //     label: "Docs"
-  //   },
-  //   {
-  //     page: "help",
-  //     label: "Help"
-  //   }
-  // ],
-
-  // /* path to images for header/footer */
-  // headerIcon: "img/favicon.png",
-  // footerIcon: "img/favicon.ico",
 
   // // Add custom scripts here that would be placed in <script> tags.
   // scripts: ["https://buttons.github.io/buttons.js"],
