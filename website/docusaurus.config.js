@@ -71,8 +71,9 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Ryosuke`,
     },
     image: 'img/favicon.png',
-    // Equivalent to `docsSideNavCollapsible`
-    sidebarCollapsible: false,
+    // When enabled (false), sidebar accordions are always expanded
+    // sidebarCollapsible: false,
+    
     // Code editor theme
     prism: {
       theme: require('prism-react-renderer/themes/nightOwl'),
