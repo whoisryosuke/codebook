@@ -2,7 +2,7 @@ main > .container {
     padding-bottom: 3rem;
 }
 
-.pagination-nav .pagination-nav__item {
+.pagination-nav.three .pagination-nav__item {
     flex-basis: 33%;
     max-width: 33%;
 }

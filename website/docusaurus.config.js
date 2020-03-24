@@ -41,6 +41,11 @@ module.exports = {
           position:'left'
         },
         {
+          to: "templates",
+          label: "Templates",
+          position:'left'
+        },
+        {
           to: "docs/design-systems/theming/theming-examples",
           label: "Design Systems",
           position:'right'

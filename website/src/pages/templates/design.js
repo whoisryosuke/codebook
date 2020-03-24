@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import "./template-styles.css";
 
-const reactTemplates = [
+const sketchTemplates = [
   {
     link: 'http://github.com/whoisryosuke',
     label: 'Design Systems',
@@ -13,7 +13,23 @@ const reactTemplates = [
   }
 ]
 
-const react3rdTemplates = [
+const sketch3rdTemplates = [
+  {
+    link: 'http://github.com/whoisryosuke',
+    label: 'Typescript',
+    title: 'tsdx',
+  }
+]
+
+const figmaTemplates = [
+  {
+    link: 'http://github.com/whoisryosuke',
+    label: 'Design Systems',
+    title: 'JSS Design System Starter',
+  }
+]
+
+const figma3rdTemplates = [
   {
     link: 'http://github.com/whoisryosuke',
     label: 'Typescript',
@@ -27,7 +43,7 @@ function ItemCard({link, label, title}) {
   );
 }
 
-function PersonalTemplates() {
+function DesignTemplates() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
@@ -36,28 +52,52 @@ function PersonalTemplates() {
       description="Templates, starter kits, and boilerplates for JS, PHP, and more">
       <main>
         <section className="container">
+
           <div className="row margin-vert--md">
             <h1 class="margin-vert--lg">Personal Templates</h1>
           </div>
           <div className="row margin-vert--md">
             <div class="card-container">
-              <h2>React Templates</h2>
+              <h2>Figma Templates</h2>
               <nav class="pagination-nav three">
                 {
-                  reactTemplates && reactTemplates.length && reactTemplates.map(reactTemplate => <ItemCard {...reactTemplate} />)
+                  figmaTemplates && figmaTemplates.length && figmaTemplates.map(figmaTemplate => <ItemCard {...figmaTemplate} />)
                 }
               </nav>
             </div>
           </div>
           <div className="row margin-vert--md">
-            <h1 class="margin-vert--lg">3rd Party Templates</h1>
-          </div>
-          <div className="row margin-vert--md">
             <div class="card-container">
-              <h2>React Templates</h2>
+              <h2>Sketch Templates</h2>
               <nav class="pagination-nav three">
                 {
-                  react3rdTemplates && react3rdTemplates.map(reactTemplate => <ItemCard {...reactTemplate} />)
+                  sketchTemplates && sketchTemplates.length && sketchTemplates.map(sketchTemplate => <ItemCard {...sketchTemplate} />)
+                }
+              </nav>
+            </div>
+          </div>
+
+          <div className="row margin-vert--md">
+            <h1 class="margin-vert--lg">3rd Party Templates</h1>
+          </div>
+
+          <div className="row margin-vert--md">
+            <div class="card-container">
+              <h2>Sketch Templates</h2>
+              <nav class="pagination-nav three">
+                {
+                  sketch3rdTemplates && sketch3rdTemplates.map(sketchTemplate => <ItemCard {...sketchTemplate} />)
+                }
+              </nav>
+            </div>
+          </div>
+
+          <div className="row margin-vert--md">
+            <div class="card-container">
+              <h2>Figma Templates</h2>
+              <nav class="pagination-nav three">
+                {
+                  figma3rdTemplates && figma3rdTemplates.map(figmaTemplate => <ItemCard {...figmaTemplate} />)
                 }
               </nav>
             </div>
@@ -68,4 +108,4 @@ function PersonalTemplates() {
   );
 }
 
-export default PersonalTemplates;
+export default DesignTemplates;
