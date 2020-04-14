@@ -29,6 +29,7 @@
           "type": "category",
           "label": "NextJS",
           "items": [
+            "js/react/next/mdx",
             "js/react/next/tips"
           ]
         },
