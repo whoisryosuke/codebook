@@ -15,7 +15,8 @@
           "label": "Examples",
           "items": [
             "js/react/examples/hide-on-scroll",
-            "js/react/examples/mobile-sidebar"
+            "js/react/examples/mobile-sidebar",
+            "js/react/examples/sync-state"
           ]
         },
         {
