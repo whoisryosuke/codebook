@@ -361,6 +361,40 @@ export async function getStaticPaths() {
 export default BlogPostPage
 ```
 
+## Linting MDX
+
+Writing MDX is great, but with any declarative syntax it can be easy to make a small mistake that breaks the entire code. [MDX supports linting using ESLint](https://github.com/mdx-js/eslint-mdx), which statically analyzes your MDX content and checks if it passes predetermined rules. This works great for detecting small issues while writing.
+
+    yarn add -D eslint-plugin-mdx
+
+However, it breaks when you try to use MDX for what it's for. For example, when you want to wrap a page in a certain layout, you just wrap the entire MDX file's content in a React component that contains the layout (see above "Page Layouts"). 
+
+```js
+<PageLayout>
+
+# MDX Page
+
+This content prints correctly. But linting will fail at the code block.
+
+```js
+const TestComponent = () => {
+    return(<div>Test</div>)
+}
+```
+
+All this content will look improperly colored in the code editor now.
+
+</PageLayout>
+```
+
+The issue with this style of writing is that we're mixing Markdown and JSX. There's usually not an issue with it, but it has some odd edge cases that you'll encounter quickly. Ideally if you write JSX, you shouldn't place Markdown inside it. It works, the MDX parser will convert Markdown inside React components into HTML. But the linter, on the other hand, has some issues parsing the data according to it's rules. 
+
+If you include a code example that uses Javascript inside your MDX using "code fences" (or the three tildes followed by the language) it will break the linter. The issue lies with the way our MDX file is setup. We wrap the Markdown/MDX content in a React component, which triggers the JSX linting rules. Because of this, ESLint now checks our Markdown content for JSX that may break it. It doesn't stop until the component is closed, which is an issue, since it has to wrap the whole page.
+
+This doesn't seem like a big issue, but it defeats the purpose of using MDX. The point is to be able to mix Markdown and JSX. If you can't do simple things like page layouts and you're forced back into full JSX (when using JSX), it ruins the authoring experience. It discourages the use of JSX since the author will have to format all nested content in JSX or HTML, which is the tedium we sought to escape with MDX.
+
+Thankfully this is simply the linting process, which can be improved. The code works, just fails testing, which isn't a deal breaker for smaller projects.
+
 ## Displaying 404 for pages that don't exist
 
 If you use the `getStaticPaths` method in any dynamic pages, NextJS will keep a static map of all your dynamic routes (like blog posts). If a page isn't included in the static path method, a 404 will  be displayed.
@@ -439,3 +473,7 @@ const withMDX = require('@next/mdx')({
     - Types for MDX React in v2
 - [https://github.com/zeit/next.js/issues/7515](https://github.com/zeit/next.js/issues/7515)
     - How to properly type `_app.js`
+- [https://github.com/mdx-js/eslint-mdx](https://github.com/mdx-js/eslint-mdx)
+    - Adds linting support for MDX to ESLint when running `eslint` command
+- [https://github.com/mdx-js/vscode-mdx](https://github.com/mdx-js/vscode-mdx)
+    - Integrates MDX linting with ESLint in VSCode to show errors in output
