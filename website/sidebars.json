@@ -31,6 +31,7 @@
           "label": "NextJS",
           "items": [
             "js/react/next/mdx",
+            "js/react/next/router",
             "js/react/next/tips"
           ]
         },
