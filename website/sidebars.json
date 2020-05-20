@@ -128,7 +128,20 @@
         "devops/ubuntu/permissions"
       ]
     }],
-    "Other": ["other/regex", "other/shopify", "other/netlify"],
+    "Other": [
+      "other/regex", 
+      "other/shopify", 
+      "other/netlify",
+      {
+        "type": "category",
+        "label": "Firebase",
+        "items": [
+          "other/firebase/intro",
+          "other/firebase/basics",
+          "other/firebase/gatsby"
+        ]
+      }
+    ],
     "Design Systems": [{
       "type": "category",
       "label": "Theming",
