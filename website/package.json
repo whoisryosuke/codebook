@@ -3,6 +3,7 @@
     "examples": "docusaurus examples",
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "format": "npx prettier --write 'website/sidebars.json'",
     "publish-gh-pages": "docusaurus publish",
     "write-translations": "docusaurus write translations",
     "version": "docusaurus version",
