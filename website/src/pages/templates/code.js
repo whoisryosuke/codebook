@@ -78,32 +78,40 @@ function PersonalTemplates() {
       <main>
         <section className="container">
           <div className="row margin-vert--md">
-            <h1 class="margin-vert--lg">Personal Templates</h1>
-          </div>
-          <div className="row margin-vert--md">
-            <div class="card-container">
-              <h2>React Templates</h2>
-              <nav class="pagination-nav three">
-                {reactTemplates &&
-                  reactTemplates.length &&
-                  reactTemplates.map((reactTemplate) => (
-                    <ItemCard {...reactTemplate} />
-                  ))}
-              </nav>
+            <div className="col">
+              <h1 class="margin-vert--lg">Personal Templates</h1>
             </div>
           </div>
           <div className="row margin-vert--md">
-            <h1 class="margin-vert--lg">3rd Party Templates</h1>
+            <div className="col">
+              <div class="card-container">
+                <h2>React Templates</h2>
+                <nav class="pagination-nav three">
+                  {reactTemplates &&
+                    reactTemplates.length &&
+                    reactTemplates.map((reactTemplate) => (
+                      <ItemCard {...reactTemplate} />
+                    ))}
+                </nav>
+              </div>
+            </div>
           </div>
           <div className="row margin-vert--md">
-            <div class="card-container">
-              <h2>React Templates</h2>
-              <nav class="pagination-nav three">
-                {react3rdTemplates &&
-                  react3rdTemplates.map((reactTemplate) => (
-                    <ItemCard {...reactTemplate} />
-                  ))}
-              </nav>
+            <div className="col">
+              <h1 class="margin-vert--lg">3rd Party Templates</h1>
+            </div>
+          </div>
+          <div className="row margin-vert--md">
+            <div className="col">
+              <div class="card-container">
+                <h2>React Templates</h2>
+                <nav class="pagination-nav three">
+                  {react3rdTemplates &&
+                    react3rdTemplates.map((reactTemplate) => (
+                      <ItemCard {...reactTemplate} />
+                    ))}
+                </nav>
+              </div>
             </div>
           </div>
         </section>
