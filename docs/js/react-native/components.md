@@ -40,9 +40,9 @@ Progress indicators and spinners for React Native using ReactART
 
 ### [react-native-slider](https://github.com/jeanregisser/react-native-slider)
 
-A pure JavaScript <Slider> component for react-native
+A pure JavaScript `<Slider>` component for react-native
 
-- *[Alternative version (less popular)](https://github.com/react-native-community/react-native-slider)*
+- _[Alternative version (less popular)](https://github.com/react-native-community/react-native-slider)_
 
 # Carousels
 
