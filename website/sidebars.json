@@ -58,6 +58,14 @@
           "items": [
             "js/node/express/error-handling"
           ]
+        },
+        {
+          "type": "category",
+          "label": "NestJS",
+          "items": [
+            "js/node/nest/intro",
+            "js/node/nest/basics"
+          ]
         }
       ]
     }, {
