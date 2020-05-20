@@ -1,136 +1,134 @@
 {
   "docs": {
     "Getting Started": ["getting-started"],
-    "JavaScript": [{
-      "type": "category",
-      "label": "React",
-      "items": [
-        "js/react/basics",
-        "js/react/context",
-        "js/react/forms",
-        "js/react/hooks",
-        "js/react/snippets",
-        {
-          "type": "category",
-          "label": "Examples",
-          "items": [
-            "js/react/examples/hide-on-scroll",
-            "js/react/examples/mobile-sidebar",
-            "js/react/examples/sync-state"
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Gatsby",
-          "items": [
-            "js/react/gatsby/config"
-          ]
-        },
-        {
-          "type": "category",
-          "label": "NextJS",
-          "items": [
-            "js/react/next/mdx",
-            "js/react/next/router",
-            "js/react/next/tips"
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Styled Components",
-          "items": [
-            "js/react/styled-components/basics",
-            "js/react/styled-components/snippets",
-            "js/react/styled-components/typescript"
-          ]
-        }
-      ]
-    }, {
-      "type": "category",
-      "label": "NodeJS",
-      "items": [
-        "js/node/basics",
-        "js/node/async",
-        "js/node/package-json",
-        {
-          "type": "category",
-          "label": "ExpressJS",
-          "items": [
-            "js/node/express/error-handling"
-          ]
-        },
-        {
-          "type": "category",
-          "label": "NestJS",
-          "items": [
-            "js/node/nest/intro",
-            "js/node/nest/basics"
-          ]
-        }
-      ]
-    }, {
-      "type": "category",
-      "label": "Typescript",
-      "items": [
-        "js/typescript/config"
-      ]
-    }, {
-      "type": "category",
-      "label": "Vanilla JS",
-      "items": [
-        "js/vanilla/currency",
-        "js/vanilla/validation"
-      ]
-    }, {
-      "type": "category",
-      "label": "Web Components",
-      "items": [
-        "js/web-components/storybook",
-        "js/web-components/react-integration"
-      ]
-    }, {
-      "type": "category",
-      "label": "jQuery",
-      "items": [
-        "js/jquery/best-practices"
-      ]
-    }],
+    "JavaScript": [
+      {
+        "type": "category",
+        "label": "React",
+        "items": [
+          "js/react/basics",
+          "js/react/context",
+          "js/react/forms",
+          "js/react/hooks",
+          "js/react/snippets",
+          {
+            "type": "category",
+            "label": "Examples",
+            "items": [
+              "js/react/examples/hide-on-scroll",
+              "js/react/examples/mobile-sidebar",
+              "js/react/examples/sync-state"
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Gatsby",
+            "items": ["js/react/gatsby/config"]
+          },
+          {
+            "type": "category",
+            "label": "NextJS",
+            "items": [
+              "js/react/next/mdx",
+              "js/react/next/router",
+              "js/react/next/tips"
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Styled Components",
+            "items": [
+              "js/react/styled-components/basics",
+              "js/react/styled-components/snippets",
+              "js/react/styled-components/typescript"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "React Native",
+        "items": [
+          "js/react-native/intro",
+          "js/react-native/basics",
+          "js/react-native/design-systems",
+          "js/react-native/components",
+          "js/react-native/web"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "NodeJS",
+        "items": [
+          "js/node/basics",
+          "js/node/async",
+          "js/node/package-json",
+          {
+            "type": "category",
+            "label": "ExpressJS",
+            "items": ["js/node/express/error-handling"]
+          },
+          {
+            "type": "category",
+            "label": "NestJS",
+            "items": ["js/node/nest/intro", "js/node/nest/basics"]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Typescript",
+        "items": ["js/typescript/config"]
+      },
+      {
+        "type": "category",
+        "label": "Vanilla JS",
+        "items": ["js/vanilla/currency", "js/vanilla/validation"]
+      },
+      {
+        "type": "category",
+        "label": "Web Components",
+        "items": [
+          "js/web-components/storybook",
+          "js/web-components/react-integration"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "jQuery",
+        "items": ["js/jquery/best-practices"]
+      }
+    ],
     "PHP": [
       "php/basics",
       "php/snippets",
       {
         "type": "category",
         "label": "Laravel",
-        "items": [
-          "php/laravel/blade",
-          "php/laravel/devops",
-          "php/laravel/tips"
-        ]
+        "items": ["php/laravel/blade", "php/laravel/devops", "php/laravel/tips"]
       }
     ],
     "CSS": ["css/css-snippets"],
-    "Dev Ops": [{
-      "type": "category",
-      "label": "Project Management",
-      "items": [
-        "devops/project/linting"
-      ]
-    }, {
-      "type": "category",
-      "label": "Git",
-      "items": [
-        "devops/git/snippets"
-      ]
-    }, {
-      "type": "category",
-      "label": "Ubuntu",
-      "items": [
-        "devops/ubuntu/permissions"
-      ]
-    }],
+    "Dev Ops": [
+      {
+        "type": "category",
+        "label": "Project Management",
+        "items": ["devops/project/linting"]
+      },
+      {
+        "type": "category",
+        "label": "Git",
+        "items": ["devops/git/snippets"]
+      },
+      {
+        "type": "category",
+        "label": "Ubuntu",
+        "items": ["devops/ubuntu/permissions"]
+      }
+    ],
     "Other": [
-      "other/regex", 
-      "other/shopify", 
+      "other/regex",
+      "other/shopify",
       "other/netlify",
       {
         "type": "category",
@@ -142,12 +140,12 @@
         ]
       }
     ],
-    "Design Systems": [{
-      "type": "category",
-      "label": "Theming",
-      "items": [
-        "design-systems/theming/theming-examples"
-      ]
-    }]
+    "Design Systems": [
+      {
+        "type": "category",
+        "label": "Theming",
+        "items": ["design-systems/theming/theming-examples"]
+      }
+    ]
   }
 }
