@@ -11,13 +11,16 @@
           "js/react/forms",
           "js/react/hooks",
           "js/react/snippets",
+          "js/react/redux",
           {
             "type": "category",
             "label": "Examples",
             "items": [
               "js/react/examples/hide-on-scroll",
               "js/react/examples/mobile-sidebar",
-              "js/react/examples/sync-state"
+              "js/react/examples/sync-state",
+              "js/react/examples/use-storage-hook",
+              "js/react/examples/hooks-as-components"
             ]
           },
           {
@@ -51,9 +54,17 @@
         "items": [
           "js/react-native/intro",
           "js/react-native/basics",
+          "js/react-native/navigation",
           "js/react-native/design-systems",
           "js/react-native/components",
-          "js/react-native/web"
+          "js/react-native/web",
+          "js/react-native/styling",
+          "js/react-native/svg",
+          "js/react-native/performance",
+          "js/react-native/setup",
+          "js/react-native/differences-web",
+          "js/react-native/gotchas",
+          "js/react-native/android"
         ]
       },
       {
@@ -118,7 +129,16 @@
       {
         "type": "category",
         "label": "Git",
-        "items": ["devops/git/snippets"]
+        "items": [
+          "devops/git/snippets",
+          {
+            "type": "category",
+            "label": "Templates",
+            "items": [
+              "devops/git/templates/contributing"
+            ]
+          }
+        ]
       },
       {
         "type": "category",
